@@ -46,10 +46,10 @@
                     <a href='/posts'>Dashboard</a>
                 </li>
                 <li>
-                    <a href='/users/users'>Bands</a>
+                    <a href='/bands'>Bands</a>
                 </li>
                 <li>
-                    <a href='/users/signup'>About</a>
+                    <a href='/about'>About</a>
                 </li>
 
             <!-- Menu options for users who are not logged in -->
@@ -61,7 +61,7 @@
                     <a href='/users/login'>Login</a>
                 </li>
                 <li>
-                    <a href='/users/signup'>Bands</a>
+                    <a href='/bands'>Bands</a>
                 </li>
                 <li>
                     <a href='/about'>About</a>

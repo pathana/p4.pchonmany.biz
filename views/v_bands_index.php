@@ -1,5 +1,5 @@
 <div id="content">
-	<h1>About</h1>
+	<h1>Bands</h1>
 		Band Central was established in
 
 </div>
