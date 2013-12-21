@@ -88,22 +88,19 @@ body {
 
 /*Main content*/
 #content {
-		background-color: #FFF;
-		border: 1px solid #666;
-		width: 800px;
+		background-color: transparent;
+		width: 950px;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 30px;
 		padding: 15px;
 		padding-bottom: 20px;
-		border-radius: 5px;
+		text-align: justify;
 }
 
 /*Index page content*/
 #indexContent {
 		background-color: transparent;
-		/*opacity:0.7;
-		filter:alpha(opacity=70);*/
 		width: 950px;
 		margin-left: auto;
 		margin-right: auto;
@@ -171,8 +168,8 @@ a:link, a:visited, a:active {
 }
 
 a:hover {
-		color: #4d607f;
-		text-decoration: line-through;
+		color: #f8f476;
+		text-decoration: underline;
 }
 
 /*Header tags*/
@@ -221,7 +218,7 @@ hr {
 #footer {
 		padding-top: 50px;
 		font-size: 0.8em;
-		color: #999;
+		color: #f9f9bf;
 }
 
 

@@ -64,13 +64,13 @@
                     <a href='/users/login'>Login</a>
                 </li>
                 <li>
-                    <a href='/users/signup'>Contact</a>
+                    <a href='/contact'>Contact</a>
                 </li>
                 <li>
                     <a href='/users/signup'>Bands</a>
                 </li>
                 <li>
-                    <a href='/users/signup'>About</a>
+                    <a href='/about'>About</a>
                 </li>
             <?php endif; ?>
     </ul>
