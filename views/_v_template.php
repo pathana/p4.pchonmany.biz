@@ -43,9 +43,6 @@
                     <a href='/users/profile'>Profile</a>
                 </li>
                 <li>
-                    <a href='/users/signup'>Contact</a>
-                </li>
-                <li>
                     <a href='/posts'>Dashboard</a>
                 </li>
                 <li>
@@ -62,9 +59,6 @@
                 </li>
                 <li>
                     <a href='/users/login'>Login</a>
-                </li>
-                <li>
-                    <a href='/contact'>Contact</a>
                 </li>
                 <li>
                     <a href='/users/signup'>Bands</a>
