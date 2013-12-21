@@ -78,6 +78,7 @@ body {
 		box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
 }
 
+/*Band Central Logo in Header */
 #logo {
 		width: 516px;
 		height: 42px;
@@ -134,6 +135,11 @@ body {
 		padding-bottom: 20px;
 		border-radius: 5px;
 		line-height: 3em;
+}
+
+/*Display for band logo images in Bands page*/
+#bands {
+		text-align: center;
 }
 
 /*Main navigation*/
@@ -228,6 +234,10 @@ hr {
 		float: right;
 		padding-left: 30px;
 		padding-bottom: 12px;
+}
+
+.bandLogo {
+		padding: 11px;
 }
 
 
