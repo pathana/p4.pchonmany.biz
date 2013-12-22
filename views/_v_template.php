@@ -21,9 +21,7 @@
 	<div id="header">
 
     <ul>
-        <div id="logo">
-            <a href='/'><img src="../images/logo.png" alt="Band Central - Home"></a>
-        </div>
+        <a href='/'><img src="../images/logo.png" class="logo" alt="Band Central - Home"></a>
 
             <!-- Menu for users who are logged in -->
             <?php if($user): ?>

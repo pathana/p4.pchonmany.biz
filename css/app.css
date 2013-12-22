@@ -79,7 +79,7 @@ body {
 }
 
 /*Band Central Logo in Header */
-#logo {
+.logo {
 		width: 516px;
 		height: 42px;
 		float: left;
