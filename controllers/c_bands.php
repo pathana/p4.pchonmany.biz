@@ -18,9 +18,16 @@ class bands_controller extends base_controller {
         $this->template->content = View::instance("v_bands_index");
         $this->template->title   = "Band Central : Bands";
 
-        # Build the query to get all the users
-        $q = "SELECT *
-            FROM users";
+        # Build the query to get only band users
+        $q = "SELECT * FROM `users` 
+	        WHERE `user_id` = 5
+			or `user_id` = 6
+			or `user_id` = 7
+			or `user_id` = 8
+			or `user_id` = 9
+			or `user_id` = 10
+			or `user_id` = 11
+			or `user_id` = 12";
 
         # Execute the query to get all the users. 
         # Store the result array in the variable $users

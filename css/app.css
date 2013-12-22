@@ -188,6 +188,13 @@ b {
 		color: #f8fa63;
 }
 
+/*Italic*/
+i {
+		font-style: italic;
+		font-size: 1.1em;
+		color: #FFF;
+}
+
 /*Time displayed on posts*/
 time {
 		font-style: italic;
