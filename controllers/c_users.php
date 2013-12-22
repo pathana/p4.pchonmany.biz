@@ -36,11 +36,6 @@ class users_controller extends base_controller {
 
         # For now, just confirm they've signed up - 
         # Redirect to login page
-            print '<script type="text/javascript">'; 
-            print 'alert("You\'re signed up! You can now login.")'; 
-            print '</script>';
-
-            
             Router::redirect("/users/login"); 
 
             #echo "<a href='/users/login'><h1>Click here to login</h1></a>.";
