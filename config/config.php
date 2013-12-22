@@ -15,7 +15,7 @@ For example there's a constant in core config set for TIME_FORMAT
 
 
 # What is the name of this app?
-	define('APP_NAME', 'BlogByte');  
+	define('APP_NAME', 'Band Central');  
 
 # When email is sent out from the server, where should it come from?
 # Ideally, this should match the domain name
@@ -32,7 +32,7 @@ A email designated to receive messages from the server. Examples:
 	define('SYSTEM_EMAIL', 'pchonmany@g.harvard.edu'); 
 
 # Default DB name for this app
-	define('DB_NAME', "pchonman_p2_pchonmany_biz"); 
+	define('DB_NAME', "pchonman_p4_pchonmany_biz"); 
 
 # Timezone
 	define('TIMEZONE', 'America/New_York');

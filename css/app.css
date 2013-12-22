@@ -70,7 +70,7 @@ body {
 #header {
 		background-color: black;
 		margin: 0 auto;
-		margin-bottom: 50px;
+		margin-bottom: 40px;
 		width: 100%;
 		height: 75px !important;
 		-webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
@@ -99,23 +99,6 @@ body {
 		text-align: justify;
 }
 
-/*Index page content*/
-#indexContent {
-		background-color: transparent;
-		width: 950px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 30px;
-		padding: 15px;
-		padding-bottom: 20px;
-		text-align: justify;
-}
-
-/*Display for forms*/
-#formContent {
-		text-align: center;
-}
-
 /*Display for 'all users' page*/
 #usersContent {
 		font-size: 1.2em;
@@ -125,15 +108,13 @@ body {
 
 /*Display for user profile page*/
 #profileContent {
-		background-color: #FFF;
-		border: 1px solid #666;
-		width: 800px;
+		background-color: transparent;
+		width: 950px;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 30px;
 		padding: 15px;
 		padding-bottom: 20px;
-		border-radius: 5px;
 		line-height: 3em;
 }
 
@@ -204,7 +185,7 @@ h2 {
 b {
 		font-weight: bold;
 		font-size: 1.2em;
-		color: #3e7aab;
+		color: #f8fa63;
 }
 
 /*Time displayed on posts*/
@@ -295,6 +276,7 @@ button.submit {
 	    font-weight: bold;
 	    font-size: 1.2em;
 	    padding: 6px 20px;
+	    margin-top: 50px;
 	    width: 120px;
 	    text-align: center;
 	    text-shadow: 0 -1px 0 #104570;
@@ -324,7 +306,8 @@ button.submit2 {
 	    font-weight: bold;
 	    font-size: 1.2em;
 	    padding: 6px 20px;
-	    width: 170px;
+	    margin-top: 40px;
+	    width: 200px;
 	    text-align: center;
 	    text-shadow: 0 -1px 0 #104570;
 }

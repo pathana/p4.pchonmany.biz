@@ -13,7 +13,7 @@ class users_controller extends base_controller {
 
         # Setup view
             $this->template->content = View::instance('v_users_signup');
-            $this->template->title   = "BlogByte : Sign Up";
+            $this->template->title   = "Band Central : Register";
 
         # Render template
             echo $this->template;
@@ -70,11 +70,11 @@ class users_controller extends base_controller {
         # Hash submitted password so we can compare it against one in the db
             $_POST['password'] = sha1(PASSWORD_SALT.$_POST['password']);
 
-        # Search the db for this email and password
+        # Search the db for this username and password
         # Retrieve the token if it's available
             $q = "SELECT token 
                 FROM users 
-                WHERE email = '".$_POST['email']."' 
+                WHERE username = '".$_POST['username']."' 
                 AND password = '".$_POST['password']."'";
 
             $token = DB::instance(DB_NAME)->select_field($q);   
