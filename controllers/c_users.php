@@ -36,7 +36,7 @@ class users_controller extends base_controller {
 
         # For now, just confirm they've signed up - 
         # Redirect to login page
-            Router::redirect("/users/login"); 
+            Router::redirect("/users/login2"); 
 
             #echo "<a href='/users/login'><h1>Click here to login</h1></a>.";
 
@@ -51,6 +51,19 @@ class users_controller extends base_controller {
 
         # Set up the view
             $this->template->content = View::instance("v_users_login");
+            $this->template->title   = "Band Central : Login";
+
+         # Pass data to the view
+            $this->template->content->error = $error;
+
+        # Render template
+            echo $this->template;
+    }
+
+    public function login2($error = NULL) {
+
+        # Set up the view
+            $this->template->content = View::instance("v_users_login2");
             $this->template->title   = "Band Central : Login";
 
          # Pass data to the view
