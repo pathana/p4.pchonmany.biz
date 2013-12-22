@@ -9,7 +9,7 @@
             <br><br>
 
             Last Name:<br>
-            <input type='text' name='last_name' size="50" placeholder="Smith" title="Please enter your last name" required>
+            <input type='text' name='last_name' size="50" placeholder="Smith">
             <br><br>
 
             Username:<br>

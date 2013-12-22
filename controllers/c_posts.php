@@ -44,7 +44,7 @@ class posts_controller extends base_controller {
 
     # Set up the View
     $this->template->content = View::instance('v_posts_index');
-    $this->template->title   = "BlogByte : All Posts";
+    $this->template->title   = "Band Central : Dashboard";
 
     # Query
     $q = 'SELECT 
@@ -75,8 +75,8 @@ class posts_controller extends base_controller {
     public function users() {
 
         # Set up the View
-        $this->template->content = View::instance("v_posts_users");
-        $this->template->title   = "BlogByte : Users";
+        $this->template->content = View::instance("v_bands_index");
+        $this->template->title   = "Band Central : Bands";
 
         # Build the query to get all the users
         $q = "SELECT *
@@ -120,7 +120,7 @@ class posts_controller extends base_controller {
         DB::instance(DB_NAME)->insert('users_users', $data);
 
         # Send them back
-        Router::redirect("/posts/users");
+        Router::redirect("/bands");
 
     }
 
@@ -131,7 +131,7 @@ class posts_controller extends base_controller {
         DB::instance(DB_NAME)->delete('users_users', $where_condition);
 
         # Send them back
-        Router::redirect("/posts/users");
+        Router::redirect("/bands");
 
     }
 
