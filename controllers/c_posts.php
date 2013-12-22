@@ -58,7 +58,7 @@ class posts_controller extends base_controller {
         INNER JOIN users_users 
             ON posts.user_id = users_users.user_id_followed
         INNER JOIN users 
-            ON posts.user_id = users.user_id
+           ON posts.user_id = users.user_id
         WHERE users_users.user_id = '.$this->user->user_id;
         # ORDER BY posts.created DESC
 
