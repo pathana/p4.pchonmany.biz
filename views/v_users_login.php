@@ -1,16 +1,39 @@
+<script language="javascript">
+    function login()
+    {   
+
+        if (document.forms[0].username.value == "")
+        {
+            alert("Please enter your username");
+            document.formLogin.username.focus();
+            return false;
+        }
+
+        if (document.forms[0].password.value == "")
+        {
+            alert("Please enter your password");
+            document.formLogin.password.focus();
+            return false;
+        }
+
+        return true;
+    }
+</script>
+
+
 <div id="content">
 
     <h1>Login</h1><p>
 
-        <form method='POST' action='/users/p_login'>
+        <form id="form0" name="formLogin" method='POST' action='/users/p_login' onsubmit="return login()">
 
             Username:<br>
-            <input type='text' name='username' size="50">
+            <input type='text' name='username' id="username" size="50">
 
             <br><br>
 
             Password:<br>
-            <input type='password' name='password' size="50">
+            <input type='password' name='password' id="pass" size="50">
 
             <br>
 
