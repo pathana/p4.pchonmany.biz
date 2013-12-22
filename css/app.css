@@ -118,6 +118,11 @@ body {
 		line-height: 3em;
 }
 
+/*Display for Bands preview page*/
+#bandPreview {
+		text-align: center;
+}
+
 /*Main navigation*/
 ul {
 	    list-style-type: none;
@@ -214,6 +219,10 @@ hr {
 
 .bandLogo {
 		padding: 12px;
+}
+
+.bandLogoPreview {
+		padding: 50px;
 }
 
 

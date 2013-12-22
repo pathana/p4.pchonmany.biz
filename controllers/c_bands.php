@@ -84,6 +84,24 @@ class bands_controller extends base_controller {
     }
 
 
+
+	/*-------------------------------------------------------------------------------------------------
+	Accessed via http://localhost/bands/preview/
+	-------------------------------------------------------------------------------------------------*/
+	public function preview() {
+		
+		# First, set the content of the template with a view file
+			$this->template->content = View::instance('v_bands_preview');
+			
+		# Now set the <title> tag
+			$this->template->title = "Band Central : Bands";
+	      					     		
+		# Render the view
+			echo $this->template;
+
+	} # End of method
+
+
 	/*-------------------------------------------------------------------------------------------------
 	Accessed via http://localhost/bands/linkinpark/
 	-------------------------------------------------------------------------------------------------*/

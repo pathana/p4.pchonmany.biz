@@ -1,6 +1,6 @@
 <div id="content">
 
-    <h1>Sign Up</h1><p>
+    <h1>Register</h1><p>
 
         <form method='POST' action='/users/p_signup'>
 
