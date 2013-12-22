@@ -19,10 +19,9 @@
 <body>	
 
 	<div id="header">
-
-    <ul>
-        <a href='/'><img src="../images/logo.png" class="logo" alt="Band Central - Home"></a>
-
+    <a href='/'><img src="../images/logo.png" class="logo" alt="Band Central - Home"></a>
+        
+        <ul>
             <!-- Menu for users who are logged in -->
             <?php if($user): ?>
                 <li>
@@ -56,7 +55,7 @@
                     <a href='/about'>About</a>
                 </li>
             <?php endif; ?>
-    </ul>
+        </ul>
 
     </div>
 
