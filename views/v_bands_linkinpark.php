@@ -1,5 +1,9 @@
 <div id="content">
 	<h1>Linkin Park</h1>
 		<img src="../images/linkin.png" class="bandPic" alt="Linkin Park">
-		
+
+		Linkin Park is an American rock band from Agoura Hills, California. Formed in 1996, the band rose to international fame with their debut album Hybrid Theory, which was certified Diamond by the RIAA in 2005 and multi-platinum in several other countries. Their following studio album Meteora, continued the band's success, topping the Billboard 200 album chart in 2003, and was followed by extensive touring and charity work around the world. In 2003, MTV2 named Linkin Park the sixth-greatest band of the music video era and the third-best of the new millennium. Billboard ranked Linkin Park No. 19 on the Best Artists of the Decade chart. The band was recently voted as the greatest artist of '00s in a Bracket Madness poll on VH1.
+	<p><br>
+		Having adapted nu metal and rap metal to a radio-friendly yet densely layered style in Hybrid Theory and Meteora, the band explored other genres in their next studio album, Minutes to Midnight (2007). The album topped the Billboard charts and had the third-best debut week of any album that year. The band continued to explore a wider variation of musical types in their fourth album, A Thousand Suns (2010), layering their music with more electronic sounds and beats. Their most recent work, Living Things (2012), combines musical elements from all of their previous records. The band has collaborated with several other artists, most notably with rapper Jay-Z in their mashup EP Collision Course, and many others on Reanimation and Recharged. Linkin Park has sold over 60 million albums worldwide and has won two Grammy Awards.
+
 </div>

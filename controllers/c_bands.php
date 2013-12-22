@@ -124,6 +124,125 @@ class bands_controller extends base_controller {
 			echo $this->template;
 
 	} # End of method
+
+
+	/*-------------------------------------------------------------------------------------------------
+	Accessed via http://localhost/bands/linkinpark/
+	-------------------------------------------------------------------------------------------------*/
+	public function noDoubt() {
+		
+		# First, set the content of the template with a view file
+			$this->template->content = View::instance('v_bands_nodoubt');
+			
+		# Now set the <title> tag
+			$this->template->title = "Band Central : Bands [No Doubt]";
+	      					     		
+		# Render the view
+			echo $this->template;
+
+	} # End of method
+
+
+	/*-------------------------------------------------------------------------------------------------
+	Accessed via http://localhost/bands/linkinpark/
+	-------------------------------------------------------------------------------------------------*/
+	public function onerepublic() {
+		
+		# First, set the content of the template with a view file
+			$this->template->content = View::instance('v_bands_onerepublic');
+			
+		# Now set the <title> tag
+			$this->template->title = "Band Central : Bands [OneRepublic]";
+	      					     		
+		# Render the view
+			echo $this->template;
+
+	} # End of method
+
+
+	/*-------------------------------------------------------------------------------------------------
+	Accessed via http://localhost/bands/linkinpark/
+	-------------------------------------------------------------------------------------------------*/
+	public function paramore() {
+		
+		# First, set the content of the template with a view file
+			$this->template->content = View::instance('v_bands_paramore');
+			
+		# Now set the <title> tag
+			$this->template->title = "Band Central : Bands [Paramore]";
+	      					     		
+		# Render the view
+			echo $this->template;
+
+	} # End of method
+
+
+	/*-------------------------------------------------------------------------------------------------
+	Accessed via http://localhost/bands/linkinpark/
+	-------------------------------------------------------------------------------------------------*/
+	public function phoenix() {
+		
+		# First, set the content of the template with a view file
+			$this->template->content = View::instance('v_bands_phoenix');
+			
+		# Now set the <title> tag
+			$this->template->title = "Band Central : Bands [Phoenix]";
+	      					     		
+		# Render the view
+			echo $this->template;
+
+	} # End of method
+
+
+	/*-------------------------------------------------------------------------------------------------
+	Accessed via http://localhost/bands/linkinpark/
+	-------------------------------------------------------------------------------------------------*/
+	public function thePolice() {
+		
+		# First, set the content of the template with a view file
+			$this->template->content = View::instance('v_bands_thepolice');
+			
+		# Now set the <title> tag
+			$this->template->title = "Band Central : Bands [The Police]";
+	      					     		
+		# Render the view
+			echo $this->template;
+
+	} # End of method
+
+
+	/*-------------------------------------------------------------------------------------------------
+	Accessed via http://localhost/bands/linkinpark/
+	-------------------------------------------------------------------------------------------------*/
+	public function steveMillerBand() {
+		
+		# First, set the content of the template with a view file
+			$this->template->content = View::instance('v_bands_stevemillerband');
+			
+		# Now set the <title> tag
+			$this->template->title = "Band Central : Bands [Steve Miller Band]";
+	      					     		
+		# Render the view
+			echo $this->template;
+
+	} # End of method
+
+
+	/*-------------------------------------------------------------------------------------------------
+	Accessed via http://localhost/bands/linkinpark/
+	-------------------------------------------------------------------------------------------------*/
+	public function yeahYeahYeahs() {
+		
+		# First, set the content of the template with a view file
+			$this->template->content = View::instance('v_bands_yeahyeahyeahs');
+			
+		# Now set the <title> tag
+			$this->template->title = "Band Central : Bands [Yeah Yeah Yeahs]";
+	      					     		
+		# Render the view
+			echo $this->template;
+
+	} # End of method
 	
 	
 } # End of class

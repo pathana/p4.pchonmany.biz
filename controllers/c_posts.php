@@ -15,7 +15,7 @@ class posts_controller extends base_controller {
 
         # Setup view
         $this->template->content = View::instance('v_posts_add');
-        $this->template->title   = "BlogByte : New Post";
+        $this->template->title   = "Band Central : New Post";
 
         # Render template
         echo $this->template;

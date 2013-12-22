@@ -24,21 +24,21 @@
 
 			<a href="/bands/linkinpark">
 				<img src="../images/logo_linkin.png" class="bandLogo" alt="Linkin Park"></a>
-			<a href="">
+			<a href="/bands/nodoubt">
 				<img src="../images/logo_nodoubt.png" class="bandLogo" alt="No Doubt"></a>
 		<p>
-			<a href="">
-				<img src="../images/logo_onerepub.png" class="bandLogo" alt="Onerepublic"></a>
-			<a href="">
+			<a href="/bands/onerepublic">
+				<img src="../images/logo_onerepub.png" class="bandLogo" alt="OneRepublic"></a>
+			<a href="/bands/paramore">
 				<img src="../images/logo_paramore.png" class="bandLogo" alt="Paramore"></a>
 		<p>
-			<a href="">
+			<a href="/bands/phoenix">
 				<img src="../images/logo_phoenix.png" class="bandLogo" alt="Phoenix"></a>
-			<a href="">
+			<a href="/bands/thepolice">
 				<img src="../images/logo_thepolice.png" class="bandLogo" alt="The Police"></a>
 		<p>
-			<a href="">
+			<a href="/bands/stevemillerband">
 				<img src="../images/logo_steve.png" class="bandLogo" alt="Steve Miller Band"></a>
-			<a href="">
+			<a href="/bands/yeahyeahyeahs">
 				<img src="../images/logo_yeahs.png" class="bandLogo" alt="Yeah Yeah Yeahs"></a>
 </div>
