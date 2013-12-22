@@ -35,11 +35,12 @@ class users_controller extends base_controller {
             $user_id = DB::instance(DB_NAME)->insert("users", $_POST);
 
         # For now, just confirm they've signed up - 
-        # You should eventually make a proper View for this
+        # Redirect to login page
             print '<script type="text/javascript">'; 
             print 'alert("You\'re signed up! You can now login.")'; 
             print '</script>';
 
+            
             Router::redirect("/users/login"); 
 
             #echo "<a href='/users/login'><h1>Click here to login</h1></a>.";
