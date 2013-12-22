@@ -15,9 +15,12 @@
 			<?php $info = $user->last_name; ?>
 			<input type="text" name="last_name" size="30" value="<?php echo $info; ?>"><br><br>
 
+			<label>Username:</label><br>
+			<?=$user->username?><br><br>
+
 			<label>Email:</label><br>
 			<?php $info = $user->email; ?>
-			<input type="text" name="email" size="30" value="<?php echo $info; ?>"><br><br>
+			<input type="text" name="email" size="30" value="<?php echo $info; ?>">
 		
 		<br/>
 

@@ -37,10 +37,12 @@ class users_controller extends base_controller {
         # For now, just confirm they've signed up - 
         # You should eventually make a proper View for this
             print '<script type="text/javascript">'; 
-            print 'alert("You\'re signed up!")'; 
+            print 'alert("You\'re signed up! You can now login.")'; 
             print '</script>';
 
-            echo "<a href='/users/login'>Click here to login</a>.";
+            Router::redirect("/users/login"); 
+
+            #echo "<a href='/users/login'><h1>Click here to login</h1></a>.";
 
 
             #$this->template->content = View::instance('v_users_registered');
@@ -53,7 +55,7 @@ class users_controller extends base_controller {
 
         # Set up the view
             $this->template->content = View::instance("v_users_login");
-            $this->template->title   = "BlogByte : Login";
+            $this->template->title   = "Band Central : Login";
 
          # Pass data to the view
             $this->template->content->error = $error;
@@ -136,7 +138,7 @@ class users_controller extends base_controller {
 
         # Setup view
             $this->template->content = View::instance('v_users_profile');
-            $this->template->title   = "BlogByte : Profile of ".$this->user->first_name;
+            $this->template->title   = "Band Central : Profile of ".$this->user->first_name;
 
         # Render template
             echo $this->template;
@@ -151,7 +153,7 @@ class users_controller extends base_controller {
         else{
             # Setup view
             $this->template->content = View::instance('v_users_edit');
-            $this->template->title   = "BlogByte : Update Your Profile";
+            $this->template->title   = "Band Central : Edit Profile";
 
             # Render template
             echo $this->template;   

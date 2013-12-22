@@ -225,19 +225,15 @@ hr {
 /*-------INPUT FIELDS---------*/
 
 input, textarea {
-		border-width: thin;
-		border-style: solid;
+		border-width: medium;
+		border-style: double;
 		padding: 5px;
 }
 
 input:focus, textarea:focus {
 	    background: #FFF;
-	    border: 1px solid blue;
+	    border: medium solid #6160a5;
 	    box-shadow: 0 0 4px #333;
-}
-
-fieldset {
-		text-align: center;
 }
 
 textarea {
@@ -312,11 +308,11 @@ button.submit2 {
 	    text-shadow: 0 -1px 0 #104570;
 }
 
-button.submit:hover {
+button.submit:hover, button.submit2:hover {
 	    opacity:.85;
 	    cursor: pointer;
 }
-button.submit:active {
+button.submit:active, button.submit2:active {
 	    border: 1px solid #bad3e8;
 	    box-shadow: 0 0 10px 5px #396f9b inset;
 	    -webkit-box-shadow:0 0 10px 5px #396f9b inset ;
